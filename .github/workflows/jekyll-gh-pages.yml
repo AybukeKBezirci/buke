@@ -26,6 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+      theme: minima
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v2
